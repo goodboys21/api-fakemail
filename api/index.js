@@ -1,5 +1,6 @@
 const express = require('express');
-const NameGenerator = require('../NameGenerator');
+const NameGenerator = require('./NameGenerator'); // udah sama folder /api
+
 const app = express();
 
 app.get('/create', (req, res) => {
